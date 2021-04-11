@@ -1,5 +1,5 @@
 {
-  "trailingComma": "es5",
+  "trailingComma": "all",
   "tabWidth": 2,
   "bracketSpacing": true,
   "endOfLine": "lf",
@@ -11,9 +11,7 @@
   "semi": true,
   "overrides": [
     {
-      "files": [
-        "*.jsx?"
-      ],
+      "files": ["*.jsx?"],
       "options": {
         "parser": "typescript",
         "jsxSingleQuote": false,
@@ -21,19 +19,16 @@
       }
     },
     {
-      "files": [
-        "*.mdx"
-      ],
+      "files": ["*.mdx"],
       "options": {
         "parser": "mdx"
       }
     },
     {
-      "files": [
-        "*.json"
-      ],
+      "files": ["*.json"],
       "options": {
-        "parser": "json"
+        "parser": "json",
+        "trailingComma": "none"
       }
     }
   ]

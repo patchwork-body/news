@@ -4,6 +4,7 @@ module.exports = {
 
   theme: {
     colors: {
+      white: '#ffffff',
       cultured: '#f4f5f5',
       canary: '#fff89d',
       'imperial-red': '#ff2835',
@@ -11,7 +12,10 @@ module.exports = {
   },
 
   variants: {
-    extend: {},
+    extend: {
+      boxShadow: ['disabled'],
+      opacity: ['disabled'],
+    },
   },
 
   plugins: [],
