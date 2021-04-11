@@ -6,6 +6,8 @@ const Template: Story<ButtonProps> = args => (
   <React.Fragment>
     <Button {...args} />
     <Button {...args} disabled />
+    <Button {...args} flat />
+    <Button {...args} flat disabled />
   </React.Fragment>
 );
 

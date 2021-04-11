@@ -7,12 +7,16 @@ module.exports = {
       white: '#ffffff',
       cultured: '#f4f5f5',
       canary: '#fff89d',
-      'imperial-red': '#ff2835',
+      'lemon-yellow': '#ffcd57',
+      'imperial-red': '#e93a3a',
+      'eerie-black': '#242424',
     },
   },
 
   variants: {
     extend: {
+      borderWidth: ['hover'],
+      borderColor: ['hover'],
       boxShadow: ['disabled'],
       opacity: ['disabled'],
     },
