@@ -9,21 +9,16 @@
     "postcss": "^8.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.8.4",
     "tailwindcss": "^2.1.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.5",
-    "@storybook/addon-actions": "^6.2.9",
-    "@storybook/addon-essentials": "^6.2.9",
-    "@storybook/addon-links": "^6.2.9",
-    "@storybook/react": "^6.2.9",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@types/jest": "^26.0.23",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.7",
     "@types/tailwindcss": "^2.0.5",
-    "babel-loader": "^8.2.2",
     "jest": "^27.0.4",
     "prettier": "^2.3.1",
     "ts-jest": "^27.0.3",
@@ -32,19 +27,13 @@
   "scripts": {
     "test": "jest",
     "test:w": "jest --watch",
-    "next": "next dev -- --port 8080",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "next": "next dev -- --port 8080"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/patchwork-body/news.git"
   },
-  "keywords": [
-    "news",
-    "reader",
-    "feeder"
-  ],
+  "keywords": ["news", "reader", "feeder"],
   "author": "gugfug gugfug1@gmail.com",
   "license": "MIT",
   "bugs": {
