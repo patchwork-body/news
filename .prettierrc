@@ -1,6 +1,7 @@
 {
   "trailingComma": "all",
   "tabWidth": 2,
+  "useTabs": false,
   "bracketSpacing": true,
   "endOfLine": "lf",
   "singleQuote": true,
@@ -9,6 +10,7 @@
   "arrowParens": "avoid",
   "quoteProps": "as-needed",
   "semi": true,
+  "proseWrap": "preserve",
   "overrides": [
     {
       "files": ["*.jsx?"],

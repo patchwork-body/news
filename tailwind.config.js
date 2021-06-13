@@ -13,13 +13,11 @@ module.exports = {
     },
   },
 
-  variants: {
-    extend: {
-      borderWidth: ['hover'],
-      borderColor: ['hover'],
-      boxShadow: ['disabled'],
-      opacity: ['disabled'],
-    },
+  extend: {
+    borderWidth: ['hover'],
+    borderColor: ['hover'],
+    boxShadow: ['disabled'],
+    opacity: ['disabled'],
   },
 
   plugins: [],

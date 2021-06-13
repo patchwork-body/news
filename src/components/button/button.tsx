@@ -12,7 +12,7 @@ export const Button = memo(function Button({ variant = 'default', flat, classNam
   return (
     <button
       className={cn(
-        'px-3 py-2 rounded-md border-2 border-white hover:shadow-md',
+        'px-3 py-2 rounded-md border-2 border-white outline-none focus:shadow-md hover:shadow-md',
         'transition-shadow duration-300 disabled:shadow-none disabled:opacity-60',
 
         { 'text-eerie-black': variant !== 'danger' },
